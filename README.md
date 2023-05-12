@@ -53,6 +53,7 @@ const fileSite = `https://xxxxxx.s3.amazonaws.com`
 
 const fileUrl = `${fileSite}/${fileS3Key}`
 const webDir = "/www/wwwroot/xxx.xxx.com"
+# backDir 这里的备份文件夹需要先创建，命令没有自动创建
 const backDir = "/opt/works/xxx/xxx_back"
 const fileS3Bucket = "xxx"
 async function zip () {
